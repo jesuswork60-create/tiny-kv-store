@@ -1,0 +1,15 @@
+build/
+cmake-build-*/
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+*.o
+*.a
+*.so
+__pycache__/
+node_modules/
+dist/
+target/
+.vscode/
+.idea/
+*.swp
