@@ -4,7 +4,7 @@ An embedded key-value store for C++17, built around an append-only log in the st
 
 It has no dependencies beyond the C++ standard library and POSIX. This is a small project and has not been used for anything serious, so treat it accordingly.
 
-What it does:
+*What it does:*
 
 - `put`, `get`, `del`, and atomic batches of puts and deletes.
 - Ordered scans by prefix or key range, through iterators that keep seeing the data as it was when they were created, even across compaction.
